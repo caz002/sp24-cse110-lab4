@@ -4,7 +4,7 @@
 
 * Question 3: 150, or the value of finalPrice will be printed to the console. The value of finalPrice will equal the discountedPrice value of the last element in prices multipled by 100 and then divided by 100, as finalPrice will be last updated when i equals prices.length-1, or the index value of the last element in prices. Since the last value in prices is 300, and the discount applied is 0.5, the final price will be 150.
 
-* Question 4: The function will return [50, 100, 150] as it calculates in the for loop on line 6 the discounted price of each of the items in the original prices array [100, 200, 300] at 50% off.
+* Question 4: The function will return [50, 100, 150] as it calculates in the for loop on line 6 the discounted price of each of the items in the original prices array [100, 200, 300] with a 50%(0.5) discount.
 
 * Question 5: The code will cause an error, as since line 12 is outside of the block i was declared in, and i is of type let, i cannot be accessed on line 12.
 
