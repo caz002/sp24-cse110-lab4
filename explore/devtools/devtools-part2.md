@@ -1,0 +1,2 @@
+1. The values inputed for the first number and the second number were being read as strings into the variables num1 and num2. Thus, num1 + num2 is treated as the concatenation of two strings, rather than adding two number values.
+2. I would fix the bug by casting using the Number() function. When the values in the num1 and num2 elements are being read, I would convert the value to a number if possible using Number(), so later in the calculateSum function the addition is not treated as string concatenation.
